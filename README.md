@@ -25,12 +25,16 @@ chmod +x investment_growth.sh
 ./investment_growth.sh <Monthly Investment Amount> <Annual Interest Rate> <Investment Term (in years)>
 
 FOR EXAMPLE: 
+
 ./investment_growth.sh 200 5 10
+
 This example assumes you're investing $200 per month with a 5% annual interest rate for 10 years.
 
 Output: The script will output:
 
 -Initial total investment: The total amount invested without interest.
+
 -Total investment value: The accumulated value of the investment, including interest.
+
 -Total interest earned: The difference between the total investment value and the initial investment (i.e., the interest earned over the period).
 
